@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gereja Bethany PTTD Kaimana – Gereja Kristen di Kaimana, Papua Barat</title>
+
+  <!-- SEO BASIC -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana – Ibadah Minggu, Sekolah Minggu, Youth, dan pelayanan komunitas di Kaimana, Papua Barat." />
+  <meta name="keywords" content="gereja di Kaimana, gereja Kristen Kaimana, Gereja Bethany PTTD Kaimana, ibadah Minggu Kaimana, gereja Papua Barat" />
+
+  <!-- OPEN GRAPH (UNTUK WHATSAPP / SOSMED PREVIEW) -->
+  <meta property="og:title" content="Gereja Bethany PTTD Kaimana – Gereja Kristen di Kaimana, Papua Barat" />
+  <meta property="og:description" content="Website resmi Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana. Informasi ibadah, jadwal pelayanan, dan kontak gereja." />
+  <meta property="og:type" content="website" />
+  <!-- Ganti jika nanti domainnya beda -->
+  <meta property="og:url" content="https://gabriellasapari.github.io/bethany-pttd-kaimana/" />
+  <!-- Kalau nanti punya gambar khusus, ganti link di bawah -->
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Gereja+Bethany+PTTD+Kaimana" />
+
+  <!-- SCHEMA.ORG JSON-LD UNTUK GOOGLE (CHURCH / LOCALBUSINESS) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Church",
+    "name": "Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana",
+    "description": "Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana – gereja Kristen yang melayani Kaimana dan sekitarnya dengan ibadah Minggu, Sekolah Minggu, Youth, dan pelayanan komunitas.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Contoh No. 12",
+      "addressLocality": "Kaimana",
+      "addressRegion": "Papua Barat",
+      "addressCountry": "ID"
+    },
+    "telephone": "+62-8xx-xxxx-xxxx",
+    "url": "https://gabriellasapari.github.io/bethany-pttd-kaimana/"
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b0b10;
+      --bg-soft: #14141f;
+      --accent: #f1c75b;
+      --accent-soft: #e1b44a;
+      --text: #f4f4f4;
+      --muted: #b6b6c7;
+      --card: #191926;
+      --radius: 16px;
+      --shadow: 0 18px 45px rgba(0,0,0,0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #20203a 0, #05050a 45%, #05050a 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(14px);
+      background: linear-gradient(to bottom, rgba(5,5,10,0.96), rgba(5,5,10,0.85), transparent);
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .nav-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .logo-mark {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-circle {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+
+    .logo-text span:first-child {
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 11px;
+      color: var(--accent);
+    }
+
+    .logo-text span:last-child {
+      font-weight: 500;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 18px;
+      font-size: 13px;
+    }
+
+    nav li a {
+      color: var(--muted);
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+    }
+
+    nav li a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .nav-cta {
+      font-size: 13px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(241,199,91,0.65);
+      background: radial-gradient(circle at top left, rgba(241,199,91,0.2), transparent 55%);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 0 0 1px rgba(241,199,91,0.1);
+    }
+
+    .nav-cta span {
+      font-size: 15px;
+    }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.4fr);
+      gap: 26px;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+
+    .hero-tag {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .hero-tag::before {
+      content: "";
+      width: 26px;
+      height: 1px;
+      background: linear-gradient(to right, var(--accent), transparent);
+    }
+
+    .hero h1 {
+      font-size: clamp(28px, 4vw, 36px);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 span {
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 520px;
+      margin-bottom: 18px;
+    }
+
+    .hero-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .hero-pill {
+      font-size: 11px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.06);
+      background: rgba(20,20,35,0.8);
+      color: var(--muted);
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .btn-primary {
+      border-radius: 999px;
+      border: none;
+      padding: 10px 18px;
+      font-size: 13px;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--accent), var(--accent-soft));
+      color: #161616;
+      font-weight: 600;
+      box-shadow: var(--shadow);
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .btn-secondary {
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 9px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      background: rgba(10,10,20,0.9);
+      color: var(--text);
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .hero-note {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .hero-card {
+      background: radial-gradient(circle at top, rgba(241,199,91,0.08), rgba(8,8,18,1));
+      border-radius: 22px;
+      padding: 18px 18px 16px;
+      border: 1px solid rgba(241,199,91,0.35);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card-header {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .hero-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .hero-times {
+      font-size: 12px;
+      display: grid;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .hero-times strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .hero-location {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .hero-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .badge-soft {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(10,10,18,0.8);
+      font-size: 11px;
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--muted);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      right: -22px;
+      top: -16px;
+      width: 120px;
+      height: 120px;
+      border-radius: 999px;
+      border: 1px dashed rgba(241,199,91,0.35);
+      opacity: 0.6;
+    }
+
+    /* SECTIONS */
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    section p.section-sub {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.5fr);
+      gap: 18px;
+      align-items: flex-start;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 16px 16px 14px;
+      border: 1px solid rgba(255,255,255,0.05);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+    }
+
+    .card h3 {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .mini-tag {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .list-dot {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .list-dot li {
+      margin-bottom: 4px;
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .list-dot li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--accent);
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .schedule-item {
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: rgba(15,15,25,0.95);
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .schedule-item strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+
+    .schedule-item span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.6fr);
+      gap: 18px;
+    }
+
+    .contact-info p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .contact-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-top: 10px;
+      margin-bottom: 2px;
+    }
+
+    .contact-highlight {
+      font-size: 13px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    form {
+      display: grid;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    label {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(10,10,18,0.95);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 13px;
+    }
+
+    textarea {
+      min-height: 80px;
+      resize: vertical;
+    }
+
+    .small {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .map-frame {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.18);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+      min-height: 220px;
+    }
+
+    footer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      padding: 18px 12px 26px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      background: rgba(4,4,10,0.95);
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: var(--accent);
+    }
+
+    @media (max-width: 800px) {
+      nav ul {
+        display: none;
+      }
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .two-col,
+      .contact-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      main {
+        padding-top: 24px;
+      }
+      .hero-card {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <div class="logo-mark">
+      <div class="logo-circle">✝</div>
+      <div class="logo-text">
+        <span>BETHANY PTTD</span>
+        <span>Kaimana • Papua Barat</span>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Gereja</a></li>
+        <li><a href="#jadwal">Jadwal Ibadah</a></li>
+        <li><a href="#pelayanan">Pelayanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+    <a href="#kontak" class="nav-cta">
+      Hubungi Kami <span>➜</span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="beranda" class="hero">
+    <div>
+      <div class="hero-tag">Gereja Kristen di Kaimana</div>
+      <h1>Selamat datang di <span>Gereja Bethany PTTD Kaimana</span></h1>
+      <p class="hero-sub">
+        Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana adalah rumah rohani
+        bagi keluarga-keluarga dan generasi muda di Kaimana. Kami rindu setiap orang mengalami
+        kasih dan kuasa Tuhan Yesus serta berjalan dalam kesatuan tubuh Kristus tanpa tembok denominasi.
+      </p>
+
+      <div class="hero-grid">
+        <div class="hero-pill">Ibadah Minggu • Pkl 09.00 WIT</div>
+        <div class="hero-pill">Sekolah Minggu • Pkl 09.00 WIT</div>
+        <div class="hero-pill">Youth / Remaja • Sabtu Pkl 17.00 WIT</div>
+      </div>
+
+      <div class="hero-cta-row">
+        <a href="#jadwal">
+          <button class="btn-primary">
+            Lihat Jadwal Ibadah
+            <span>⟶</span>
+          </button>
+        </a>
+        <a href="#kontak">
+          <button class="btn-secondary">
+            Saya ingin berkunjung
+          </button>
+        </a>
+      </div>
+
+      <p class="hero-note">
+        Kata kunci untuk Google: <strong>“gereja di Kaimana”</strong> •
+        <strong>“Gereja Bethany PTTD Kaimana”</strong>
+      </p>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-orbit"></div>
+      <div class="hero-card-header">Ibadah Minggu</div>
+      <div class="hero-card-title">Mari beribadah bersama di Kaimana</div>
+
+      <div class="hero-times">
+        <div>
+          <strong>Minggu Pagi • 09.00 WIT</strong><br />
+          Ibadah Raya Dewasa &amp; Keluarga
+        </div>
+        <div>
+          <strong>Minggu Pagi • 09.00 WIT</strong><br />
+          Sekolah Minggu (Anak-anak)
+        </div>
+      </div>
+
+      <p class="hero-location">
+        Lokasi: Jalan Contoh No. 12, Kaimana, Papua Barat  
+        (Ganti alamat dengan alamat gereja yang benar)
+      </p>
+
+      <div class="hero-label">Kontak cepat</div>
+      <div class="badge-soft">
+        WhatsApp Admin Gereja: <strong>+62-8xx-xxxx-xxxx</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- TENTANG GEREJA -->
+  <section id="tentang">
+    <h2>Tentang Gereja Bethany PTTD Kaimana</h2>
+    <p class="section-sub">
+      Bagian ini membantu jemaat baru mengenal identitas, sejarah singkat, dan kerinduan rohani dari
+      Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana.
+    </p>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="mini-tag">Sejarah singkat</div>
+        <h3>Berakar di Kaimana, tanpa tembok denominasi</h3>
+        <p>
+          Gereja Bethany PTTD Kaimana berdiri sebagai bagian dari keluarga besar Bethany, dengan visi
+          <em>Persatuan Tanpa Tembok Denominasi</em>. Sejak tahun <strong>20xx</strong>, gereja ini menjadi
+          rumah rohani bagi banyak keluarga, anak-anak, remaja, dan orang dewasa di Kaimana yang rindu
+          menyembah Tuhan dalam roh dan kebenaran.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="mini-tag">Visi &amp; misi</div>
+        <h3>Visi &amp; Misi Gereja Bethany PTTD Kaimana</h3>
+        <ul class="list-dot">
+          <li>Memenangkan dan memuridkan jiwa-jiwa di Kaimana bagi Kristus.</li>
+          <li>Membangun keluarga-keluarga yang kuat di dalam Tuhan Yesus.</li>
+          <li>Menjalani persatuan tubuh Kristus tanpa tembok denominasi.</li>
+          <li>Menjadi berkat bagi masyarakat melalui pelayanan kasih dan doa.</li>
+          <li>Mengutus generasi muda yang mengasihi Tuhan dan berdampak bagi bangsa-bangsa.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PELAYANAN -->
+  <section id="pelayanan">
+    <h2>Pelayanan di Gereja Bethany PTTD Kaimana</h2>
+    <p class="section-sub">
+      Berikut beberapa pelayanan utama di Gereja Bethany PTTD Kaimana. Kamu bisa menyesuaikan daftar ini
+      dengan pelayanan yang benar-benar ada di gereja kalian.
+    </p>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="mini-tag">Pelayanan utama</div>
+        <h3>Ibadah &amp; Komunitas</h3>
+        <ul class="list-dot">
+          <li>Ibadah Raya Minggu</li>
+          <li>Sekolah Minggu Anak</li>
+          <li>Ibadah Youth / Remaja</li>
+          <li>Ibadah Doa / Tengah Minggu</li>
+          <li>Komsel / Kelompok Kecil (jika ada)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="mini-tag">Tim pelayanan</div>
+        <h3>Tim Pelayanan Jemaat</h3>
+        <ul class="list-dot">
+          <li>Tim Musik &amp; Worship</li>
+          <li>Tim Multimedia &amp; Live Streaming (jika ada)</li>
+          <li>Usher / Penyambut Jemaat</li>
+          <li>Pelayanan Doa &amp; Konseling</li>
+          <li>Pelayanan Sosial / Diakonia</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- JADWAL IBADAH -->
+  <section id="jadwal">
+    <h2>Jadwal Ibadah Gereja Bethany PTTD Kaimana</h2>
+    <p class="section-sub">
+      Informasi ini sangat penting bagi jemaat dan pengunjung baru. Sesuaikan jam ibadah dengan kondisi
+      sebenarnya di gereja kalian di Kaimana.
+    </p>
+
+    <div class="card">
+      <div class="schedule-grid">
+        <div class="schedule-item">
+          <strong>Ibadah Raya Minggu</strong>
+          <span>Minggu • 09.00 WIT</span><br />
+          <span>Dewasa &amp; Keluarga</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Sekolah Minggu</strong>
+          <span>Minggu • 09.00 WIT</span><br />
+          <span>Anak-anak</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Youth / Remaja</strong>
+          <span>Sabtu • 17.00 WIT</span><br />
+          <span>Remaja &amp; Pemuda</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Ibadah Doa / Tengah Minggu</strong>
+          <span>Rabu • 18.00 WIT</span><br />
+          <span>Doa &amp; Firman</span>
+        </div>
+      </div>
+      <p class="small">
+        *Catatan: Ubah jam, hari, dan jenis ibadah sesuai jadwal resmi Gereja Bethany PTTD Kaimana.
+      </p>
+    </div>
+  </section>
+
+  <!-- KONTAK & MAP -->
+  <section id="kontak">
+    <h2>Lokasi &amp; Kontak Gereja</h2>
+    <p class="section-sub">
+      Bagi jemaat baru, bagian ini yang paling dicari: alamat lengkap, peta, dan cara menghubungi
+      Gereja Bethany PTTD Kaimana.
+    </p>
+
+    <div class="contact-grid">
+      <div class="card contact-info">
+        <div class="mini-tag">Alamat gereja</div>
+        <p>
+          <strong>Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana</strong><br />
+          Jalan Contoh No. 12<br />
+          Kaimana, Papua Barat, Indonesia
+        </p>
+
+        <p class="contact-label">WhatsApp / Telepon</p>
+        <p class="contact-highlight">
+          +62-8xx-xxxx-xxxx
+        </p>
+
+        <p class="contact-label">Email</p>
+        <p class="contact-highlight">
+          email-gereja@example.com
+        </p>
+
+        <p class="contact-label">Media sosial (opsional)</p>
+        <p>
+          Instagram: @bethanypttd.kaimana<br />
+          YouTube: Gereja Bethany PTTD Kaimana
+        </p>
+
+        <p class="small">
+          Setelah website ini online, daftarkan juga gereja di
+          <strong>Google Business / Google Maps</strong> agar mudah ditemukan dengan kata kunci
+          “Gereja Bethany PTTD Kaimana”.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="mini-tag">Formulir kontak</div>
+        <h3>Ingin berkunjung atau ada pertanyaan?</h3>
+        <p class="small">
+          Form ini contoh saja. Kamu bisa sambungkan ke layanan form (misalnya Formspree) atau cukup arahkan jemaat ke WhatsApp.
+        </p>
+        <form>
+          <div>
+            <label for="nama">Nama</label>
+            <input id="nama" type="text" placeholder="Nama lengkap" />
+          </div>
+          <div>
+            <label for="hp">Nomor HP / WhatsApp</label>
+            <input id="hp" type="text" placeholder="+62..." />
+          </div>
+          <div>
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" placeholder="Tulis pertanyaan atau permohonan doa di sini..."></textarea>
+          </div>
+          <button type="button" class="btn-primary">
+            Kirim (Simbolis saja)
+          </button>
+          <p class="small">
+            Untuk saat ini, jemaat bisa langsung menghubungi WhatsApp admin di nomor yang tertera di atas.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <div style="margin-top:18px;">
+      <div class="mini-tag">Peta lokasi (Google Maps)</div>
+      <p class="small">
+        Ganti iframe di bawah dengan embed Google Maps dari alamat Gereja Bethany PTTD Kaimana.
+        (Buka Google Maps &gt; cari gereja &gt; Bagikan &gt; Sematkan peta &gt; copy HTML).
+      </p>
+      <div class="map-frame">
+        <!-- CONTOH IFRAME MAP – GANTI DENGAN MAP GEREJA BETHANY PTTD KAIMANA -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63819.83406418559!2d133.684!3d-3.663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6832211c2b0d123b%3A0x7a7d2ee5ca0f345!2sKaimana%2C%20Kaimana%20Regency%2C%20West%20Papua!5e0!3m2!1sen!2sid!4v0000000000000"
+          width="100%"
+          height="260"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Gereja Bethany PTTD Kaimana. Semua hak cipta dilindungi. |
+  Dibuat dengan kasih untuk kemuliaan Tuhan Yesus.
+</footer>
+
+<script>
+  // Tahun otomatis di footer
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
