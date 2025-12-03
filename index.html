@@ -6,25 +6,23 @@
 
   <!-- SEO BASIC -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana – Ibadah Minggu, Sekolah Minggu, Youth, dan pelayanan komunitas di Kaimana, Papua Barat." />
-  <meta name="keywords" content="gereja di Kaimana, gereja Kristen Kaimana, Gereja Bethany PTTD Kaimana, ibadah Minggu Kaimana, gereja Papua Barat" />
+  <meta name="description" content="Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana – Ibadah Minggu, Ibadah Keluarga, Ibadah Persiapan Doa & Puasa, dan pelayanan komunitas di Kaimana, Papua Barat." />
+  <meta name="keywords" content="gereja di Kaimana, Gereja Bethany PTTD Kaimana, ibadah Minggu Kaimana, gereja Kristen Papua Barat" />
 
-  <!-- OPEN GRAPH (UNTUK WHATSAPP / SOSMED PREVIEW) -->
+  <!-- OPEN GRAPH -->
   <meta property="og:title" content="Gereja Bethany PTTD Kaimana – Gereja Kristen di Kaimana, Papua Barat" />
   <meta property="og:description" content="Website resmi Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana. Informasi ibadah, jadwal pelayanan, dan kontak gereja." />
   <meta property="og:type" content="website" />
-  <!-- Ganti jika nanti domainnya beda -->
-  <meta property="og:url" content="https://gabriellasapari.github.io/bethany-pttd-kaimana/" />
-  <!-- Kalau nanti punya gambar khusus, ganti link di bawah -->
+  <meta property="og:url" content="https://gabriellasapari.github.io/gereja-bethany-pttd-kaimana/" />
   <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Gereja+Bethany+PTTD+Kaimana" />
 
-  <!-- SCHEMA.ORG JSON-LD UNTUK GOOGLE (CHURCH / LOCALBUSINESS) -->
+  <!-- SCHEMA.ORG JSON-LD UNTUK GOOGLE -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Church",
     "name": "Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana",
-    "description": "Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana – gereja Kristen yang melayani Kaimana dan sekitarnya dengan ibadah Minggu, Sekolah Minggu, Youth, dan pelayanan komunitas.",
+    "description": "Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana – gereja Kristen yang melayani Kaimana dan sekitarnya dengan ibadah Minggu, Ibadah Keluarga, dan Ibadah Persiapan Doa & Puasa.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Jalan Contoh No. 12",
@@ -33,7 +31,7 @@
       "addressCountry": "ID"
     },
     "telephone": "+62-8xx-xxxx-xxxx",
-    "url": "https://gabriellasapari.github.io/bethany-pttd-kaimana/"
+    "url": "https://gabriellasapari.github.io/gereja-bethany-pttd-kaimana/"
   }
   </script>
 
@@ -173,7 +171,7 @@
       gap: 26px;
       align-items: center;
       margin-top: 10px;
-      margin-bottom: 40px;
+      margin-bottom: 32px;
     }
 
     .hero-tag {
@@ -341,9 +339,9 @@
       opacity: 0.6;
     }
 
-    /* SECTIONS */
+    /* RINGKASAN SECTION */
     section {
-      margin-bottom: 40px;
+      margin-bottom: 32px;
     }
 
     section h2 {
@@ -354,22 +352,30 @@
     section p.section-sub {
       font-size: 13px;
       color: var(--muted);
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
 
-    .two-col {
+    .summary-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.5fr);
-      gap: 18px;
-      align-items: flex-start;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
     }
 
     .card {
       background: var(--card);
       border-radius: var(--radius);
-      padding: 16px 16px 14px;
+      padding: 14px 14px 12px;
       border: 1px solid rgba(255,255,255,0.05);
       box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+      font-size: 13px;
+    }
+
+    .mini-tag {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 6px;
     }
 
     .card h3 {
@@ -382,127 +388,17 @@
       color: var(--muted);
     }
 
-    .mini-tag {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--muted);
-      margin-bottom: 6px;
+    .schedule-mini {
+      font-size: 12px;
+      margin-top: 6px;
     }
 
-    .list-dot {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 8px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .list-dot li {
+    .schedule-mini div {
       margin-bottom: 4px;
-      position: relative;
-      padding-left: 14px;
     }
 
-    .list-dot li::before {
-      content: "•";
-      position: absolute;
-      left: 0;
-      top: 0;
+    .schedule-mini strong {
       color: var(--accent);
-    }
-
-    .schedule-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 10px;
-      font-size: 13px;
-    }
-
-    .schedule-item {
-      padding: 10px 12px;
-      border-radius: 12px;
-      background: rgba(15,15,25,0.95);
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-
-    .schedule-item strong {
-      display: block;
-      font-size: 13px;
-      margin-bottom: 2px;
-    }
-
-    .schedule-item span {
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.6fr);
-      gap: 18px;
-    }
-
-    .contact-info p {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .contact-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--muted);
-      margin-top: 10px;
-      margin-bottom: 2px;
-    }
-
-    .contact-highlight {
-      font-size: 13px;
-      color: var(--accent);
-      font-weight: 600;
-    }
-
-    form {
-      display: grid;
-      gap: 8px;
-      font-size: 13px;
-    }
-
-    label {
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 8px 10px;
-      border-radius: 10px;
-      border: 1px solid rgba(255,255,255,0.12);
-      background: rgba(10,10,18,0.95);
-      color: var(--text);
-      font-family: inherit;
-      font-size: 13px;
-    }
-
-    textarea {
-      min-height: 80px;
-      resize: vertical;
-    }
-
-    .small {
-      font-size: 11px;
-      color: var(--muted);
-      margin-top: 4px;
-    }
-
-    .map-frame {
-      border-radius: 14px;
-      overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.18);
-      box-shadow: 0 16px 40px rgba(0,0,0,0.5);
-      min-height: 220px;
     }
 
     footer {
@@ -512,7 +408,7 @@
       padding: 18px 12px 26px;
       border-top: 1px solid rgba(255,255,255,0.05);
       background: rgba(4,4,10,0.95);
-      margin-top: 40px;
+      margin-top: 28px;
     }
 
     footer a {
@@ -524,10 +420,6 @@
         display: none;
       }
       .hero {
-        grid-template-columns: minmax(0, 1fr);
-      }
-      .two-col,
-      .contact-grid {
         grid-template-columns: minmax(0, 1fr);
       }
       main {
@@ -550,23 +442,23 @@
       </div>
     </div>
     <nav>
-  <ul>
-    <li><a href="index.html">Beranda</a></li>
-    <li><a href="tentang.html">Tentang Gereja</a></li>
-    <li><a href="jadwal.html">Jadwal Ibadah</a></li>
-    <li><a href="pelayanan.html">Pelayanan</a></li>
-    <li><a href="kontak.html">Kontak</a></li>
-  </ul>
-</nav>
-    <a href="#kontak" class="nav-cta">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang Gereja</a></li>
+        <li><a href="jadwal.html">Jadwal Ibadah</a></li>
+        <li><a href="pelayanan.html">Pelayanan</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <a href="kontak.html" class="nav-cta">
       Hubungi Kami <span>➜</span>
     </a>
   </div>
 </header>
 
 <main>
-  <!-- HERO -->
-  <section id="beranda" class="hero">
+  <!-- HERO BERANDA -->
+  <section class="hero">
     <div>
       <div class="hero-tag">Gereja Kristen di Kaimana</div>
       <h1>Selamat datang di <span>Gereja Bethany PTTD Kaimana</span></h1>
@@ -577,28 +469,28 @@
       </p>
 
       <div class="hero-grid">
-        <div class="hero-pill">Ibadah Minggu • Pkl 09.00 WIT</div>
-        <div class="hero-pill">Sekolah Minggu • Pkl 09.00 WIT</div>
-        <div class="hero-pill">Youth / Remaja • Sabtu Pkl 17.00 WIT</div>
+        <div class="hero-pill">Ibadah Raya Minggu • 09.00 WIT</div>
+        <div class="hero-pill">Ibadah Keluarga Rabu • 19.00 WIT</div>
+        <div class="hero-pill">Persiapan Doa & Puasa • Jumat 16.00 WIT</div>
       </div>
 
       <div class="hero-cta-row">
-        <a href="#jadwal">
+        <a href="jadwal.html">
           <button class="btn-primary">
-            Lihat Jadwal Ibadah
+            Lihat Jadwal Lengkap
             <span>⟶</span>
           </button>
         </a>
-        <a href="#kontak">
+        <a href="tentang.html">
           <button class="btn-secondary">
-            Saya ingin berkunjung
+            Tentang Gereja Bethany PTTD
           </button>
         </a>
       </div>
 
       <p class="hero-note">
-        Kata kunci untuk Google: <strong>“gereja di Kaimana”</strong> •
-        <strong>“Gereja Bethany PTTD Kaimana”</strong>
+        Kata kunci untuk Google: <strong>“Gereja Bethany PTTD Kaimana”</strong> •
+        <strong>“gereja di Kaimana”</strong>
       </p>
     </div>
 
@@ -609,18 +501,18 @@
 
       <div class="hero-times">
         <div>
-          <strong>Minggu Pagi • 09.00 WIT</strong><br />
+          <strong>Minggu • 09.00 WIT</strong><br />
           Ibadah Raya Dewasa &amp; Keluarga
         </div>
         <div>
-          <strong>Minggu Pagi • 09.00 WIT</strong><br />
+          <strong>Minggu • 09.00 WIT</strong><br />
           Sekolah Minggu (Anak-anak)
         </div>
       </div>
 
       <p class="hero-location">
         Lokasi: Jalan Contoh No. 12, Kaimana, Papua Barat  
-        (Ganti alamat dengan alamat gereja yang benar)
+        (Ganti dengan alamat gereja yang benar)
       </p>
 
       <div class="hero-label">Kontak cepat</div>
@@ -630,198 +522,42 @@
     </div>
   </section>
 
-  <!-- TENTANG GEREJA -->
-  <section id="tentang">
-    <h2>Tentang Gereja Bethany PTTD Kaimana</h2>
+  <!-- RINGKASAN CEPAT -->
+  <section>
+    <h2>Ringkasan Singkat</h2>
     <p class="section-sub">
-      Bagian ini membantu jemaat baru mengenal identitas, sejarah singkat, dan kerinduan rohani dari
-      Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana.
+      Beberapa informasi utama Gereja Bethany PTTD Kaimana. Untuk detail lebih lengkap, gunakan menu di atas.
     </p>
 
-    <div class="two-col">
+    <div class="summary-grid">
       <div class="card">
-        <div class="mini-tag">Sejarah singkat</div>
-        <h3>Berakar di Kaimana, tanpa tembok denominasi</h3>
+        <div class="mini-tag">Jadwal Utama</div>
+        <h3>Ibadah Setiap Minggu & Tengah Minggu</h3>
+        <div class="schedule-mini">
+          <div><strong>Minggu • 09.00 WIT</strong> – Ibadah Raya & Sekolah Minggu</div>
+          <div><strong>Rabu • 19.00 WIT</strong> – Ibadah Keluarga</div>
+          <div><strong>Jumat • 16.00 WIT</strong> – Ibadah Persiapan Doa & Puasa</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="mini-tag">Lokasi</div>
+        <h3>Gereja Bethany PTTD Kaimana</h3>
         <p>
-          Gereja Bethany PTTD Kaimana berdiri sebagai bagian dari keluarga besar Bethany, dengan visi
-          <em>Persatuan Tanpa Tembok Denominasi</em>. Sejak tahun <strong>20xx</strong>, gereja ini menjadi
-          rumah rohani bagi banyak keluarga, anak-anak, remaja, dan orang dewasa di Kaimana yang rindu
-          menyembah Tuhan dalam roh dan kebenaran.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="mini-tag">Visi &amp; misi</div>
-        <h3>Visi &amp; Misi Gereja Bethany PTTD Kaimana</h3>
-        <ul class="list-dot">
-          <li>Memenangkan dan memuridkan jiwa-jiwa di Kaimana bagi Kristus.</li>
-          <li>Membangun keluarga-keluarga yang kuat di dalam Tuhan Yesus.</li>
-          <li>Menjalani persatuan tubuh Kristus tanpa tembok denominasi.</li>
-          <li>Menjadi berkat bagi masyarakat melalui pelayanan kasih dan doa.</li>
-          <li>Mengutus generasi muda yang mengasihi Tuhan dan berdampak bagi bangsa-bangsa.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- PELAYANAN -->
-  <section id="pelayanan">
-    <h2>Pelayanan di Gereja Bethany PTTD Kaimana</h2>
-    <p class="section-sub">
-      Berikut beberapa pelayanan utama di Gereja Bethany PTTD Kaimana. Kamu bisa menyesuaikan daftar ini
-      dengan pelayanan yang benar-benar ada di gereja kalian.
-    </p>
-
-    <div class="two-col">
-      <div class="card">
-        <div class="mini-tag">Pelayanan utama</div>
-        <h3>Ibadah &amp; Komunitas</h3>
-        <ul class="list-dot">
-          <li>Ibadah Raya Minggu</li>
-          <li>Sekolah Minggu Anak</li>
-          <li>Ibadah Youth / Remaja</li>
-          <li>Ibadah Doa / Tengah Minggu</li>
-          <li>Komsel / Kelompok Kecil (jika ada)</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <div class="mini-tag">Tim pelayanan</div>
-        <h3>Tim Pelayanan Jemaat</h3>
-        <ul class="list-dot">
-          <li>Tim Musik &amp; Worship</li>
-          <li>Tim Multimedia &amp; Live Streaming (jika ada)</li>
-          <li>Usher / Penyambut Jemaat</li>
-          <li>Pelayanan Doa &amp; Konseling</li>
-          <li>Pelayanan Sosial / Diakonia</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- JADWAL IBADAH -->
-  <section id="jadwal">
-    <h2>Jadwal Ibadah Gereja Bethany PTTD Kaimana</h2>
-    <p class="section-sub">
-      Informasi ini sangat penting bagi jemaat dan pengunjung baru. Sesuaikan jam ibadah dengan kondisi
-      sebenarnya di gereja kalian di Kaimana.
-    </p>
-
-    <div class="card">
-      <div class="schedule-grid">
-        <div class="schedule-item">
-          <strong>Ibadah Raya Minggu</strong>
-          <span>Minggu • 09.00 WIT</span><br />
-          <span>Dewasa &amp; Keluarga</span>
-        </div>
-        <div class="schedule-item">
-          <strong>Sekolah Minggu</strong>
-          <span>Minggu • 09.00 WIT</span><br />
-          <span>Anak-anak</span>
-        </div>
-        <div class="schedule-item">
-          <strong>Youth / Remaja</strong>
-          <span>Sabtu • 17.00 WIT</span><br />
-          <span>Remaja &amp; Pemuda</span>
-        </div>
-        <div class="schedule-item">
-          <strong>Ibadah Doa / Tengah Minggu</strong>
-          <span>Rabu • 18.00 WIT</span><br />
-          <span>Doa &amp; Firman</span>
-        </div>
-      </div>
-      <p class="small">
-        *Catatan: Ubah jam, hari, dan jenis ibadah sesuai jadwal resmi Gereja Bethany PTTD Kaimana.
-      </p>
-    </div>
-  </section>
-
-  <!-- KONTAK & MAP -->
-  <section id="kontak">
-    <h2>Lokasi &amp; Kontak Gereja</h2>
-    <p class="section-sub">
-      Bagi jemaat baru, bagian ini yang paling dicari: alamat lengkap, peta, dan cara menghubungi
-      Gereja Bethany PTTD Kaimana.
-    </p>
-
-    <div class="contact-grid">
-      <div class="card contact-info">
-        <div class="mini-tag">Alamat gereja</div>
-        <p>
-          <strong>Gereja Bethany PTTD (Persatuan Tanpa Tembok Denominasi) Kaimana</strong><br />
           Jalan Contoh No. 12<br />
-          Kaimana, Papua Barat, Indonesia
-        </p>
-
-        <p class="contact-label">WhatsApp / Telepon</p>
-        <p class="contact-highlight">
-          +62-8xx-xxxx-xxxx
-        </p>
-
-        <p class="contact-label">Email</p>
-        <p class="contact-highlight">
-          email-gereja@example.com
-        </p>
-
-        <p class="contact-label">Media sosial (opsional)</p>
-        <p>
-          Instagram: @bethanypttd.kaimana<br />
-          YouTube: Gereja Bethany PTTD Kaimana
-        </p>
-
-        <p class="small">
-          Setelah website ini online, daftarkan juga gereja di
-          <strong>Google Business / Google Maps</strong> agar mudah ditemukan dengan kata kunci
-          “Gereja Bethany PTTD Kaimana”.
+          Kaimana, Papua Barat, Indonesia<br />
+          (Silakan ganti dengan alamat resmi gereja.)
         </p>
       </div>
 
       <div class="card">
-        <div class="mini-tag">Formulir kontak</div>
-        <h3>Ingin berkunjung atau ada pertanyaan?</h3>
-        <p class="small">
-          Form ini contoh saja. Kamu bisa sambungkan ke layanan form (misalnya Formspree) atau cukup arahkan jemaat ke WhatsApp.
+        <div class="mini-tag">Kontak & Media</div>
+        <h3>Hubungi Gereja</h3>
+        <p>
+          WhatsApp: <strong>+62-8xx-xxxx-xxxx</strong><br />
+          Email: <strong>email-gereja@example.com</strong><br />
+          Instagram: @bethanypttd.kaimana
         </p>
-        <form>
-          <div>
-            <label for="nama">Nama</label>
-            <input id="nama" type="text" placeholder="Nama lengkap" />
-          </div>
-          <div>
-            <label for="hp">Nomor HP / WhatsApp</label>
-            <input id="hp" type="text" placeholder="+62..." />
-          </div>
-          <div>
-            <label for="pesan">Pesan</label>
-            <textarea id="pesan" placeholder="Tulis pertanyaan atau permohonan doa di sini..."></textarea>
-          </div>
-          <button type="button" class="btn-primary">
-            Kirim (Simbolis saja)
-          </button>
-          <p class="small">
-            Untuk saat ini, jemaat bisa langsung menghubungi WhatsApp admin di nomor yang tertera di atas.
-          </p>
-        </form>
-      </div>
-    </div>
-
-    <div style="margin-top:18px;">
-      <div class="mini-tag">Peta lokasi (Google Maps)</div>
-      <p class="small">
-        Ganti iframe di bawah dengan embed Google Maps dari alamat Gereja Bethany PTTD Kaimana.
-        (Buka Google Maps &gt; cari gereja &gt; Bagikan &gt; Sematkan peta &gt; copy HTML).
-      </p>
-      <div class="map-frame">
-        <!-- CONTOH IFRAME MAP – GANTI DENGAN MAP GEREJA BETHANY PTTD KAIMANA -->
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63819.83406418559!2d133.684!3d-3.663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6832211c2b0d123b%3A0x7a7d2ee5ca0f345!2sKaimana%2C%20Kaimana%20Regency%2C%20West%20Papua!5e0!3m2!1sen!2sid!4v0000000000000"
-          width="100%"
-          height="260"
-          style="border:0;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
       </div>
     </div>
   </section>
@@ -833,8 +569,8 @@
 </footer>
 
 <script>
-  // Tahun otomatis di footer
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 </body>
 </html>
+
